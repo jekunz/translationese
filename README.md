@@ -27,7 +27,11 @@ Each sample is annotated with one or more error tags categorizing the translatio
 |---|---|
 | `translationese_opensubtitles_clean.csv` | Release version of the dataset. Also available [on HuggingFace](https://huggingface.co/datasets/liu-nlp/translationese-opensubtitles). |
 | `translationese_opensubtitles_annotated.csv` | Extended version with detailed error descriptions and comments by the annotators. |
-| `translationese_eval_csv.py` | Minimal-pair evaluation script for the LREC paper. |
+| `translationese_eval.py` | Minimal-pair evaluation script for the LREC paper. |
+| `translationese_eval_results.json` | Full results generated with `translationese_eval.py`. |
+| `translationese_eval_tags.py` | Per-error-tag analysis for the LREC paper. |
+| `translationese_tag_analysis.json` | Full results generated with `translationese_eval_tags.py`. |
+
 
 ## Citation
 
