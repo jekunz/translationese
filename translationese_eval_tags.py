@@ -3,7 +3,6 @@ import torch
 import json
 import string
 import os
-import ast
 import re
 import numpy as np
 import gc
@@ -17,7 +16,7 @@ def parse_tags(s):
 
 
 df = pd.read_csv("translationese_opensubtitles_clean.csv")
-df["context"] = df["context"].apply(ast.literal_eval)
+df["context"] = df["context"].apply(json.loads)
 df["error_tags"] = df["error_tags"].apply(parse_tags)
 
 
