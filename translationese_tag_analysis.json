@@ -1,0 +1,416 @@
+{
+  "AI-Sweden LLaMA base": {
+    "no_prompt": {
+      "ADD": {
+        "opus_preferred": 19,
+        "human_preferred": 6,
+        "total": 25,
+        "opus_preferred_pct": 76.0
+      },
+      "BET": {
+        "opus_preferred": 88,
+        "human_preferred": 127,
+        "total": 215,
+        "opus_preferred_pct": 40.93023255813954
+      },
+      "DIR": {
+        "opus_preferred": 46,
+        "human_preferred": 78,
+        "total": 124,
+        "opus_preferred_pct": 37.096774193548384
+      },
+      "GR": {
+        "opus_preferred": 39,
+        "human_preferred": 59,
+        "total": 98,
+        "opus_preferred_pct": 39.795918367346935
+      },
+      "ID": {
+        "opus_preferred": 4,
+        "human_preferred": 21,
+        "total": 25,
+        "opus_preferred_pct": 16.0
+      },
+      "LF": {
+        "opus_preferred": 67,
+        "human_preferred": 75,
+        "total": 142,
+        "opus_preferred_pct": 47.183098591549296
+      },
+      "PR": {
+        "opus_preferred": 77,
+        "human_preferred": 87,
+        "total": 164,
+        "opus_preferred_pct": 46.95121951219512
+      },
+      "SAK": {
+        "opus_preferred": 30,
+        "human_preferred": 75,
+        "total": 105,
+        "opus_preferred_pct": 28.57142857142857
+      },
+      "SEM": {
+        "opus_preferred": 128,
+        "human_preferred": 148,
+        "total": 276,
+        "opus_preferred_pct": 46.3768115942029
+      },
+      "SL": {
+        "opus_preferred": 17,
+        "human_preferred": 17,
+        "total": 34,
+        "opus_preferred_pct": 50.0
+      },
+      "ST": {
+        "opus_preferred": 15,
+        "human_preferred": 17,
+        "total": 32,
+        "opus_preferred_pct": 46.875
+      }
+    },
+    "context_10": {
+      "ADD": {
+        "opus_preferred": 16,
+        "human_preferred": 9,
+        "total": 25,
+        "opus_preferred_pct": 64.0
+      },
+      "BET": {
+        "opus_preferred": 104,
+        "human_preferred": 111,
+        "total": 215,
+        "opus_preferred_pct": 48.372093023255815
+      },
+      "DIR": {
+        "opus_preferred": 89,
+        "human_preferred": 35,
+        "total": 124,
+        "opus_preferred_pct": 71.7741935483871
+      },
+      "GR": {
+        "opus_preferred": 48,
+        "human_preferred": 50,
+        "total": 98,
+        "opus_preferred_pct": 48.97959183673469
+      },
+      "ID": {
+        "opus_preferred": 16,
+        "human_preferred": 9,
+        "total": 25,
+        "opus_preferred_pct": 64.0
+      },
+      "LF": {
+        "opus_preferred": 67,
+        "human_preferred": 75,
+        "total": 142,
+        "opus_preferred_pct": 47.183098591549296
+      },
+      "PR": {
+        "opus_preferred": 86,
+        "human_preferred": 78,
+        "total": 164,
+        "opus_preferred_pct": 52.4390243902439
+      },
+      "SAK": {
+        "opus_preferred": 20,
+        "human_preferred": 85,
+        "total": 105,
+        "opus_preferred_pct": 19.047619047619047
+      },
+      "SEM": {
+        "opus_preferred": 140,
+        "human_preferred": 136,
+        "total": 276,
+        "opus_preferred_pct": 50.72463768115942
+      },
+      "SL": {
+        "opus_preferred": 22,
+        "human_preferred": 12,
+        "total": 34,
+        "opus_preferred_pct": 64.70588235294117
+      },
+      "ST": {
+        "opus_preferred": 12,
+        "human_preferred": 20,
+        "total": 32,
+        "opus_preferred_pct": 37.5
+      }
+    }
+  },
+  "EuroLLM-9B-Instruct": {
+    "no_prompt": {
+      "ADD": {
+        "opus_preferred": 19,
+        "human_preferred": 6,
+        "total": 25,
+        "opus_preferred_pct": 76.0
+      },
+      "BET": {
+        "opus_preferred": 95,
+        "human_preferred": 120,
+        "total": 215,
+        "opus_preferred_pct": 44.18604651162791
+      },
+      "DIR": {
+        "opus_preferred": 54,
+        "human_preferred": 70,
+        "total": 124,
+        "opus_preferred_pct": 43.54838709677419
+      },
+      "GR": {
+        "opus_preferred": 44,
+        "human_preferred": 54,
+        "total": 98,
+        "opus_preferred_pct": 44.89795918367347
+      },
+      "ID": {
+        "opus_preferred": 10,
+        "human_preferred": 15,
+        "total": 25,
+        "opus_preferred_pct": 40.0
+      },
+      "LF": {
+        "opus_preferred": 68,
+        "human_preferred": 74,
+        "total": 142,
+        "opus_preferred_pct": 47.88732394366197
+      },
+      "PR": {
+        "opus_preferred": 95,
+        "human_preferred": 69,
+        "total": 164,
+        "opus_preferred_pct": 57.92682926829268
+      },
+      "SAK": {
+        "opus_preferred": 34,
+        "human_preferred": 71,
+        "total": 105,
+        "opus_preferred_pct": 32.38095238095238
+      },
+      "SEM": {
+        "opus_preferred": 136,
+        "human_preferred": 140,
+        "total": 276,
+        "opus_preferred_pct": 49.275362318840585
+      },
+      "SL": {
+        "opus_preferred": 17,
+        "human_preferred": 17,
+        "total": 34,
+        "opus_preferred_pct": 50.0
+      },
+      "ST": {
+        "opus_preferred": 16,
+        "human_preferred": 16,
+        "total": 32,
+        "opus_preferred_pct": 50.0
+      }
+    },
+    "context_10": {
+      "ADD": {
+        "opus_preferred": 21,
+        "human_preferred": 4,
+        "total": 25,
+        "opus_preferred_pct": 84.0
+      },
+      "BET": {
+        "opus_preferred": 111,
+        "human_preferred": 104,
+        "total": 215,
+        "opus_preferred_pct": 51.627906976744185
+      },
+      "DIR": {
+        "opus_preferred": 90,
+        "human_preferred": 34,
+        "total": 124,
+        "opus_preferred_pct": 72.58064516129032
+      },
+      "GR": {
+        "opus_preferred": 54,
+        "human_preferred": 44,
+        "total": 98,
+        "opus_preferred_pct": 55.10204081632652
+      },
+      "ID": {
+        "opus_preferred": 13,
+        "human_preferred": 12,
+        "total": 25,
+        "opus_preferred_pct": 52.0
+      },
+      "LF": {
+        "opus_preferred": 66,
+        "human_preferred": 76,
+        "total": 142,
+        "opus_preferred_pct": 46.478873239436616
+      },
+      "PR": {
+        "opus_preferred": 106,
+        "human_preferred": 58,
+        "total": 164,
+        "opus_preferred_pct": 64.63414634146342
+      },
+      "SAK": {
+        "opus_preferred": 30,
+        "human_preferred": 75,
+        "total": 105,
+        "opus_preferred_pct": 28.57142857142857
+      },
+      "SEM": {
+        "opus_preferred": 156,
+        "human_preferred": 120,
+        "total": 276,
+        "opus_preferred_pct": 56.52173913043478
+      },
+      "SL": {
+        "opus_preferred": 25,
+        "human_preferred": 9,
+        "total": 34,
+        "opus_preferred_pct": 73.52941176470588
+      },
+      "ST": {
+        "opus_preferred": 18,
+        "human_preferred": 14,
+        "total": 32,
+        "opus_preferred_pct": 56.25
+      }
+    }
+  },
+  "Gemma-12B-it": {
+    "no_prompt": {
+      "ADD": {
+        "opus_preferred": 17,
+        "human_preferred": 8,
+        "total": 25,
+        "opus_preferred_pct": 68.0
+      },
+      "BET": {
+        "opus_preferred": 81,
+        "human_preferred": 134,
+        "total": 215,
+        "opus_preferred_pct": 37.67441860465116
+      },
+      "DIR": {
+        "opus_preferred": 56,
+        "human_preferred": 68,
+        "total": 124,
+        "opus_preferred_pct": 45.16129032258064
+      },
+      "GR": {
+        "opus_preferred": 36,
+        "human_preferred": 62,
+        "total": 98,
+        "opus_preferred_pct": 36.734693877551024
+      },
+      "ID": {
+        "opus_preferred": 10,
+        "human_preferred": 15,
+        "total": 25,
+        "opus_preferred_pct": 40.0
+      },
+      "LF": {
+        "opus_preferred": 54,
+        "human_preferred": 88,
+        "total": 142,
+        "opus_preferred_pct": 38.028169014084504
+      },
+      "PR": {
+        "opus_preferred": 81,
+        "human_preferred": 83,
+        "total": 164,
+        "opus_preferred_pct": 49.390243902439025
+      },
+      "SAK": {
+        "opus_preferred": 20,
+        "human_preferred": 85,
+        "total": 105,
+        "opus_preferred_pct": 19.047619047619047
+      },
+      "SEM": {
+        "opus_preferred": 122,
+        "human_preferred": 154,
+        "total": 276,
+        "opus_preferred_pct": 44.20289855072464
+      },
+      "SL": {
+        "opus_preferred": 17,
+        "human_preferred": 17,
+        "total": 34,
+        "opus_preferred_pct": 50.0
+      },
+      "ST": {
+        "opus_preferred": 13,
+        "human_preferred": 19,
+        "total": 32,
+        "opus_preferred_pct": 40.625
+      }
+    },
+    "context_10": {
+      "ADD": {
+        "opus_preferred": 13,
+        "human_preferred": 12,
+        "total": 25,
+        "opus_preferred_pct": 52.0
+      },
+      "BET": {
+        "opus_preferred": 75,
+        "human_preferred": 140,
+        "total": 215,
+        "opus_preferred_pct": 34.883720930232556
+      },
+      "DIR": {
+        "opus_preferred": 68,
+        "human_preferred": 56,
+        "total": 124,
+        "opus_preferred_pct": 54.83870967741935
+      },
+      "GR": {
+        "opus_preferred": 40,
+        "human_preferred": 58,
+        "total": 98,
+        "opus_preferred_pct": 40.816326530612244
+      },
+      "ID": {
+        "opus_preferred": 10,
+        "human_preferred": 15,
+        "total": 25,
+        "opus_preferred_pct": 40.0
+      },
+      "LF": {
+        "opus_preferred": 49,
+        "human_preferred": 93,
+        "total": 142,
+        "opus_preferred_pct": 34.50704225352113
+      },
+      "PR": {
+        "opus_preferred": 89,
+        "human_preferred": 75,
+        "total": 164,
+        "opus_preferred_pct": 54.268292682926834
+      },
+      "SAK": {
+        "opus_preferred": 30,
+        "human_preferred": 75,
+        "total": 105,
+        "opus_preferred_pct": 28.57142857142857
+      },
+      "SEM": {
+        "opus_preferred": 124,
+        "human_preferred": 152,
+        "total": 276,
+        "opus_preferred_pct": 44.927536231884055
+      },
+      "SL": {
+        "opus_preferred": 18,
+        "human_preferred": 16,
+        "total": 34,
+        "opus_preferred_pct": 52.94117647058824
+      },
+      "ST": {
+        "opus_preferred": 15,
+        "human_preferred": 17,
+        "total": 32,
+        "opus_preferred_pct": 46.875
+      }
+    }
+  }
+}
