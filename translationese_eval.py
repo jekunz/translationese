@@ -3,13 +3,12 @@ import torch
 import json
 import string
 import os
-import ast
 import numpy as np
 import gc
 import pandas as pd
 
 df = pd.read_csv("translationese_opensubtitles_clean.csv")
-df["context"] = df["context"].apply(ast.literal_eval)
+df["context"] = df["context"].apply(json.loads)
 
 # --- Prompt construction ---
 
