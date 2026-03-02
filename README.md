@@ -5,23 +5,29 @@ Intended for modelling implicit preferences for idiomatic language in a minimal-
 
 ## Dataset Description
 
-This dataset contains 600 English sentences from English [OpenSubtitles](https://aclanthology.org/L16-1147.pdf) paired with three Swedish translations of varying quality: 
-- swedish_opus is a translation by [OPUS-MT](https://huggingface.co/Helsinki-NLP/opus-mt-en-sv).
-- swedish_gpt is a translation by GPT-4.
-- swedish_human is a translation written by a human annotator, with the intention to explicitly make the OPUS translation more natural and idiomatic. 
+This dataset contains 600 English sentences from [OpenSubtitles](https://aclanthology.org/L16-1147.pdf) paired with three Swedish translations of varying quality:
 
-Each sample also includes:
-- 10 sentences context from the source
-- A human annotator's judgment whether the GPT translation is equally acceptable as the human translation.
-- Error tags for the OPUS translation. See our paper (coming soon) for a detailed description of the tags.
+| Column | Description |
+|---|---|
+| `english_source` | Original English sentence |
+| `swedish_opus` | Machine translation by [OPUS-MT](https://huggingface.co/Helsinki-NLP/opus-mt-en-sv) |
+| `swedish_human` | Human-corrected translation, revised to be more natural and idiomatic |
+| `swedish_gpt` | Machine translation by GPT-4 |
+| `error_tags` | Error categories for the OPUS translation (see below) |
+| `gpt_acceptable` | Whether the GPT translation was judged equally acceptable as the human one |
+| `context` | 10 preceding subtitle lines from the English source |
 
-All sentences are annotated with error tags categorizing the type of translationese present in the OPUS translation.
+### Error Tags
+
+Each sample is annotated with one or more error tags categorizing the translationese present in the OPUS translation. See our paper (coming soon) for detailed descriptions.
 
 ## Files
 
-- 'translationese_opensubtitles_clean.csv': Release version of the dataset. Also available [on HuggingFace](https://huggingface.co/datasets/liu-nlp/translationese-opensubtitles). 
-- 'translationese_opensubtitles_annotated.csv': Also includes detailed error descriptions by the annotators.
-- 'translationese_eval.py': Minimal pair evaluations of models for the LREC paper. 
+| File | Description |
+|---|---|
+| `translationese_opensubtitles_clean.csv` | Release version of the dataset. Also available [on HuggingFace](https://huggingface.co/datasets/liu-nlp/translationese-opensubtitles). |
+| `translationese_opensubtitles_annotated.csv` | Extended version with detailed error descriptions and comments by the annotators. |
+| `translationese_eval_csv.py` | Minimal-pair evaluation script for the LREC paper. |
 
 ## Citation
 
