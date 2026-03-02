@@ -17,9 +17,11 @@ Each sample also includes:
 
 All sentences are annotated with error tags categorizing the type of translationese present in the OPUS translation.
 
-## 'Annotated' Version
+## Files
 
-- Also includes detailed error descriptions by the annotators. 
+- 'translationese_opensubtitles_clean.csv': Release version of the dataset. Also available [on HuggingFace](https://huggingface.co/datasets/liu-nlp/translationese-opensubtitles). 
+- 'translationese_opensubtitles_annotated.csv': Also includes detailed error descriptions by the annotators.
+- 'translationese_eval.py': Minimal pair evaluations of models for the LREC paper. 
 
 ## Citation
 
