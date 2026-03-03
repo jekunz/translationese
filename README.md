@@ -32,6 +32,21 @@ Each sample is annotated with one or more error tags categorizing the translatio
 | `translationese_eval_tags.py` | Per-error-tag analysis for the LREC paper. |
 | `translationese_tag_analysis.json` | Full results generated with `translationese_eval_tags.py`. |
 
+## Reproduce Experiments
+
+### Prerequisites
+
+- Python 3.8+ with torch, transformers, numpy and pandas; cuda available. 
+- `translationese_opensubtitles_clean.csv` in the working directory.
+
+### Run
+
+```bash
+python translationese_eval_csv.py
+python translationese_eval_tags.py
+```
+
+Both scripts will download model weights from Hugging Face on first run.
 
 ## Citation
 
