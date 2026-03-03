@@ -11,8 +11,7 @@ from collections import Counter
 
 
 def parse_tags(s):
-    """Parse error_tags into a list of strings."""
-    return re.findall(r"'(\w+)'", s)
+    return json.loads(s)
 
 
 df = pd.read_csv("translationese_opensubtitles_clean.csv")
