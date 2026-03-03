@@ -1,0 +1,802 @@
+{
+  "meta-llama/Meta-Llama-3-8B": {
+    "no_prompt": {
+      "accuracy opus": 0.47833333333333333,
+      "delta nll opus": 0.018281202801324583,
+      "accuracy gpt": 0.4033333333333333,
+      "delta nll gpt": 0.009134847617857727
+    },
+    "context_0": {
+      "accuracy opus": 0.405,
+      "delta nll opus": -0.01754711846519737,
+      "accuracy gpt": 0.33166666666666667,
+      "delta nll gpt": -0.02149572320228474
+    },
+    "context_1": {
+      "accuracy opus": 0.3933333333333333,
+      "delta nll opus": -0.011113120276258279,
+      "accuracy gpt": 0.33,
+      "delta nll gpt": -0.014342580288739644
+    },
+    "context_2": {
+      "accuracy opus": 0.405,
+      "delta nll opus": -0.008708350787342247,
+      "accuracy gpt": 0.33,
+      "delta nll gpt": -0.012526316388934564
+    },
+    "context_3": {
+      "accuracy opus": 0.415,
+      "delta nll opus": -0.006796819131310349,
+      "accuracy gpt": 0.325,
+      "delta nll gpt": -0.01072070169845993
+    },
+    "context_4": {
+      "accuracy opus": 0.425,
+      "delta nll opus": -0.006054700352676872,
+      "accuracy gpt": 0.33,
+      "delta nll gpt": -0.009738458518427414
+    },
+    "context_5": {
+      "accuracy opus": 0.4266666666666667,
+      "delta nll opus": -0.005100746165969416,
+      "accuracy gpt": 0.32666666666666666,
+      "delta nll gpt": -0.008744222362282353
+    },
+    "context_10": {
+      "accuracy opus": 0.4216666666666667,
+      "delta nll opus": -0.0031502323785089297,
+      "accuracy gpt": 0.33166666666666667,
+      "delta nll gpt": -0.005987496498282765
+    }
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct": {
+    "no_prompt": {
+      "accuracy opus": 0.49833333333333335,
+      "delta nll opus": 0.020131274890480746,
+      "accuracy gpt": 0.425,
+      "delta nll gpt": 0.011737148795353794
+    },
+    "context_0": {
+      "accuracy opus": 0.3933333333333333,
+      "delta nll opus": -0.022827094842260268,
+      "accuracy gpt": 0.30666666666666664,
+      "delta nll gpt": -0.031154502593296454
+    },
+    "context_1": {
+      "accuracy opus": 0.42,
+      "delta nll opus": -0.010318425602065678,
+      "accuracy gpt": 0.31666666666666665,
+      "delta nll gpt": -0.017217946525071075
+    },
+    "context_2": {
+      "accuracy opus": 0.42833333333333334,
+      "delta nll opus": -0.007696628029585296,
+      "accuracy gpt": 0.32166666666666666,
+      "delta nll gpt": -0.014647138904547512
+    },
+    "context_3": {
+      "accuracy opus": 0.44166666666666665,
+      "delta nll opus": -0.006559253547402829,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.013063082684269306
+    },
+    "context_4": {
+      "accuracy opus": 0.44,
+      "delta nll opus": -0.005798484291692302,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.012145421764664615
+    },
+    "context_5": {
+      "accuracy opus": 0.43833333333333335,
+      "delta nll opus": -0.0053346188371091625,
+      "accuracy gpt": 0.31666666666666665,
+      "delta nll gpt": -0.011061314018906818
+    },
+    "context_10": {
+      "accuracy opus": 0.44333333333333336,
+      "delta nll opus": -0.00318359385885173,
+      "accuracy gpt": 0.34,
+      "delta nll gpt": -0.007391842694285192
+    }
+  },
+  "AI-Sweden-Models/Llama-3-8B": {
+    "no_prompt": {
+      "accuracy opus": 0.5666666666666667,
+      "delta nll opus": 0.051690956581965784,
+      "accuracy gpt": 0.445,
+      "delta nll gpt": 0.023589086437432752
+    },
+    "context_0": {
+      "accuracy opus": 0.43,
+      "delta nll opus": -0.015818603134801112,
+      "accuracy gpt": 0.3416666666666667,
+      "delta nll gpt": -0.016413992954698583
+    },
+    "context_1": {
+      "accuracy opus": 0.49333333333333335,
+      "delta nll opus": -0.001034367905513044,
+      "accuracy gpt": 0.34,
+      "delta nll gpt": -0.009114728989101095
+    },
+    "context_2": {
+      "accuracy opus": 0.485,
+      "delta nll opus": 0.0003109480720587493,
+      "accuracy gpt": 0.3383333333333333,
+      "delta nll gpt": -0.0077751399334394285
+    },
+    "context_3": {
+      "accuracy opus": 0.49666666666666665,
+      "delta nll opus": 0.0011148704751965234,
+      "accuracy gpt": 0.335,
+      "delta nll gpt": -0.0067602567789636185
+    },
+    "context_4": {
+      "accuracy opus": 0.5116666666666667,
+      "delta nll opus": 0.0011856532040062048,
+      "accuracy gpt": 0.3383333333333333,
+      "delta nll gpt": -0.0062691578725384035
+    },
+    "context_5": {
+      "accuracy opus": 0.5133333333333333,
+      "delta nll opus": 0.0012053254024581136,
+      "accuracy gpt": 0.3416666666666667,
+      "delta nll gpt": -0.0057481972331082124
+    },
+    "context_10": {
+      "accuracy opus": 0.5066666666666667,
+      "delta nll opus": 0.0008386894363023639,
+      "accuracy gpt": 0.3416666666666667,
+      "delta nll gpt": -0.004248479369905129
+    }
+  },
+  "AI-Sweden-Models/Llama-3-8B-instruct": {
+    "no_prompt": {
+      "accuracy opus": 0.5283333333333333,
+      "delta nll opus": 0.033569671500834924,
+      "accuracy gpt": 0.435,
+      "delta nll gpt": 0.014744048831519455
+    },
+    "context_0": {
+      "accuracy opus": 0.44,
+      "delta nll opus": -0.013879019955661714,
+      "accuracy gpt": 0.30666666666666664,
+      "delta nll gpt": -0.026348724612921686
+    },
+    "context_1": {
+      "accuracy opus": 0.44666666666666666,
+      "delta nll opus": -0.009457986185096958,
+      "accuracy gpt": 0.30666666666666664,
+      "delta nll gpt": -0.017754891803039848
+    },
+    "context_2": {
+      "accuracy opus": 0.4533333333333333,
+      "delta nll opus": -0.006835168076635574,
+      "accuracy gpt": 0.305,
+      "delta nll gpt": -0.014947548128589177
+    },
+    "context_3": {
+      "accuracy opus": 0.455,
+      "delta nll opus": -0.005182843985695459,
+      "accuracy gpt": 0.31,
+      "delta nll gpt": -0.012994854903728493
+    },
+    "context_4": {
+      "accuracy opus": 0.46166666666666667,
+      "delta nll opus": -0.004388463415948262,
+      "accuracy gpt": 0.30333333333333334,
+      "delta nll gpt": -0.011719614280721604
+    },
+    "context_5": {
+      "accuracy opus": 0.465,
+      "delta nll opus": -0.003701073592742522,
+      "accuracy gpt": 0.3,
+      "delta nll gpt": -0.010558170621390606
+    },
+    "context_10": {
+      "accuracy opus": 0.4683333333333333,
+      "delta nll opus": -0.0021434822790245165,
+      "accuracy gpt": 0.31666666666666665,
+      "delta nll gpt": -0.007141309626812049
+    }
+  },
+  "utter-project/EuroLLM-1.7B": {
+    "no_prompt": {
+      "accuracy opus": 0.48333333333333334,
+      "delta nll opus": 0.010924767243487515,
+      "accuracy gpt": 0.4116666666666667,
+      "delta nll gpt": 0.008344849045698427
+    },
+    "context_0": {
+      "accuracy opus": 0.33666666666666667,
+      "delta nll opus": -0.03086039701572877,
+      "accuracy gpt": 0.3016666666666667,
+      "delta nll gpt": -0.023291637563638976
+    },
+    "context_1": {
+      "accuracy opus": 0.3516666666666667,
+      "delta nll opus": -0.016887004940780118,
+      "accuracy gpt": 0.30333333333333334,
+      "delta nll gpt": -0.014136423344864125
+    },
+    "context_2": {
+      "accuracy opus": 0.37333333333333335,
+      "delta nll opus": -0.013129180667308083,
+      "accuracy gpt": 0.315,
+      "delta nll gpt": -0.011486693248319387
+    },
+    "context_3": {
+      "accuracy opus": 0.37166666666666665,
+      "delta nll opus": -0.010498917041820342,
+      "accuracy gpt": 0.3233333333333333,
+      "delta nll gpt": -0.009646463352919533
+    },
+    "context_4": {
+      "accuracy opus": 0.37,
+      "delta nll opus": -0.009386293449662318,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.008594950993932598
+    },
+    "context_5": {
+      "accuracy opus": 0.36833333333333335,
+      "delta nll opus": -0.008330803104139993,
+      "accuracy gpt": 0.325,
+      "delta nll gpt": -0.007851587304451929
+    },
+    "context_10": {
+      "accuracy opus": 0.38166666666666665,
+      "delta nll opus": -0.005741783285677444,
+      "accuracy gpt": 0.33166666666666667,
+      "delta nll gpt": -0.005517699080143053
+    }
+  },
+  "utter-project/EuroLLM-1.7B-Instruct": {
+    "no_prompt": {
+      "accuracy opus": 0.49166666666666664,
+      "delta nll opus": 0.020032705737174226,
+      "accuracy gpt": 0.4083333333333333,
+      "delta nll gpt": 0.010485181856969757
+    },
+    "context_0": {
+      "accuracy opus": 0.355,
+      "delta nll opus": -0.027680637405869946,
+      "accuracy gpt": 0.29,
+      "delta nll gpt": -0.02482229919682099
+    },
+    "context_1": {
+      "accuracy opus": 0.385,
+      "delta nll opus": -0.015807381730949352,
+      "accuracy gpt": 0.30333333333333334,
+      "delta nll gpt": -0.015296116321834046
+    },
+    "context_2": {
+      "accuracy opus": 0.405,
+      "delta nll opus": -0.012066920254308673,
+      "accuracy gpt": 0.31833333333333336,
+      "delta nll gpt": -0.01241510787205884
+    },
+    "context_3": {
+      "accuracy opus": 0.39166666666666666,
+      "delta nll opus": -0.00957877164204049,
+      "accuracy gpt": 0.32,
+      "delta nll gpt": -0.01063395586298677
+    },
+    "context_4": {
+      "accuracy opus": 0.4,
+      "delta nll opus": -0.008501759040686199,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.00955334297421088
+    },
+    "context_5": {
+      "accuracy opus": 0.3983333333333333,
+      "delta nll opus": -0.007731328187309258,
+      "accuracy gpt": 0.31833333333333336,
+      "delta nll gpt": -0.008799157880800214
+    },
+    "context_10": {
+      "accuracy opus": 0.4,
+      "delta nll opus": -0.005282511244064098,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.006210300166037006
+    }
+  },
+  "utter-project/EuroLLM-9B": {
+    "no_prompt": {
+      "accuracy opus": 0.49666666666666665,
+      "delta nll opus": 0.02641368116447946,
+      "accuracy gpt": 0.43,
+      "delta nll gpt": 0.011933834640961457
+    },
+    "context_0": {
+      "accuracy opus": 0.41333333333333333,
+      "delta nll opus": -0.014326896449992526,
+      "accuracy gpt": 0.25833333333333336,
+      "delta nll gpt": -0.03041587852376588
+    },
+    "context_1": {
+      "accuracy opus": 0.41,
+      "delta nll opus": -0.009019419683840783,
+      "accuracy gpt": 0.25166666666666665,
+      "delta nll gpt": -0.01979384078715264
+    },
+    "context_2": {
+      "accuracy opus": 0.42,
+      "delta nll opus": -0.006087274293202525,
+      "accuracy gpt": 0.265,
+      "delta nll gpt": -0.01616675319817918
+    },
+    "context_3": {
+      "accuracy opus": 0.4483333333333333,
+      "delta nll opus": -0.004042404853995324,
+      "accuracy gpt": 0.2683333333333333,
+      "delta nll gpt": -0.013721975906350069
+    },
+    "context_4": {
+      "accuracy opus": 0.42833333333333334,
+      "delta nll opus": -0.00342860033068853,
+      "accuracy gpt": 0.27166666666666667,
+      "delta nll gpt": -0.012258663020654665
+    },
+    "context_5": {
+      "accuracy opus": 0.45666666666666667,
+      "delta nll opus": -0.002555506999723643,
+      "accuracy gpt": 0.26666666666666666,
+      "delta nll gpt": -0.010903672830983245
+    },
+    "context_10": {
+      "accuracy opus": 0.455,
+      "delta nll opus": -0.0014565781328273895,
+      "accuracy gpt": 0.2833333333333333,
+      "delta nll gpt": -0.007502552572957743
+    }
+  },
+  "utter-project/EuroLLM-9B-Instruct": {
+    "no_prompt": {
+      "accuracy opus": 0.51,
+      "delta nll opus": NaN,
+      "accuracy gpt": 0.4083333333333333,
+      "delta nll gpt": NaN
+    },
+    "context_0": {
+      "accuracy opus": 0.3883333333333333,
+      "delta nll opus": -0.019023508440207105,
+      "accuracy gpt": 0.24166666666666667,
+      "delta nll gpt": -0.03733345985057049
+    },
+    "context_1": {
+      "accuracy opus": 0.42833333333333334,
+      "delta nll opus": -0.009018006095878398,
+      "accuracy gpt": 0.25,
+      "delta nll gpt": -0.022037058397009056
+    },
+    "context_2": {
+      "accuracy opus": 0.43166666666666664,
+      "delta nll opus": -0.006374268095103043,
+      "accuracy gpt": 0.26,
+      "delta nll gpt": -0.018248969913681558
+    },
+    "context_3": {
+      "accuracy opus": 0.455,
+      "delta nll opus": -0.003918974853679702,
+      "accuracy gpt": 0.2783333333333333,
+      "delta nll gpt": -0.01516409558475387
+    },
+    "context_4": {
+      "accuracy opus": 0.44666666666666666,
+      "delta nll opus": -0.0030751668739798428,
+      "accuracy gpt": 0.265,
+      "delta nll gpt": -0.013419497475820812
+    },
+    "context_5": {
+      "accuracy opus": 0.44,
+      "delta nll opus": -0.002317740544982203,
+      "accuracy gpt": 0.265,
+      "delta nll gpt": -0.01180475554545326
+    },
+    "context_10": {
+      "accuracy opus": 0.47,
+      "delta nll opus": -0.0010884500456246108,
+      "accuracy gpt": 0.27666666666666667,
+      "delta nll gpt": -0.007909735533030846
+    }
+  },
+  "google/gemma-3-270m": {
+    "no_prompt": {
+      "accuracy opus": 0.47333333333333333,
+      "delta nll opus": 0.009473262733340638,
+      "accuracy gpt": 0.4583333333333333,
+      "delta nll gpt": 0.03162054887625878
+    },
+    "context_0": {
+      "accuracy opus": 0.3516666666666667,
+      "delta nll opus": -0.024184111130856847,
+      "accuracy gpt": 0.34,
+      "delta nll gpt": -0.011310958914463142
+    },
+    "context_1": {
+      "accuracy opus": 0.35,
+      "delta nll opus": -0.018197811839461356,
+      "accuracy gpt": 0.3383333333333333,
+      "delta nll gpt": -0.009249412911221357
+    },
+    "context_2": {
+      "accuracy opus": 0.345,
+      "delta nll opus": -0.015758221220330156,
+      "accuracy gpt": 0.34833333333333333,
+      "delta nll gpt": -0.007582215401772707
+    },
+    "context_3": {
+      "accuracy opus": 0.35,
+      "delta nll opus": -0.01352569556409439,
+      "accuracy gpt": 0.36333333333333334,
+      "delta nll gpt": -0.006332616995803796
+    },
+    "context_4": {
+      "accuracy opus": 0.355,
+      "delta nll opus": -0.012301057222236627,
+      "accuracy gpt": 0.3433333333333333,
+      "delta nll gpt": -0.00617645852629421
+    },
+    "context_5": {
+      "accuracy opus": 0.355,
+      "delta nll opus": -0.011077613082622962,
+      "accuracy gpt": 0.3466666666666667,
+      "delta nll gpt": -0.005411618969608378
+    },
+    "context_10": {
+      "accuracy opus": 0.355,
+      "delta nll opus": -0.007881383802602783,
+      "accuracy gpt": 0.355,
+      "delta nll gpt": -0.0037980991913092645
+    }
+  },
+  "google/gemma-3-270m-it": {
+    "no_prompt": {
+      "accuracy opus": 0.495,
+      "delta nll opus": 0.006110195774419649,
+      "accuracy gpt": 0.44,
+      "delta nll gpt": 0.02395262911063022
+    },
+    "context_0": {
+      "accuracy opus": 0.32166666666666666,
+      "delta nll opus": -0.037333509290866075,
+      "accuracy gpt": 0.36,
+      "delta nll gpt": -0.016171287395877473
+    },
+    "context_1": {
+      "accuracy opus": 0.32,
+      "delta nll opus": -0.02459902422029016,
+      "accuracy gpt": 0.3333333333333333,
+      "delta nll gpt": -0.012020516746160342
+    },
+    "context_2": {
+      "accuracy opus": 0.32166666666666666,
+      "delta nll opus": -0.021491640373432833,
+      "accuracy gpt": 0.36666666666666664,
+      "delta nll gpt": -0.010161943437946937
+    },
+    "context_3": {
+      "accuracy opus": 0.3333333333333333,
+      "delta nll opus": -0.018722371359323274,
+      "accuracy gpt": 0.36833333333333335,
+      "delta nll gpt": -0.008896773204038729
+    },
+    "context_4": {
+      "accuracy opus": 0.33,
+      "delta nll opus": -0.016528378147335012,
+      "accuracy gpt": 0.3616666666666667,
+      "delta nll gpt": -0.00768781839742274
+    },
+    "context_5": {
+      "accuracy opus": 0.34,
+      "delta nll opus": -0.01518538139318571,
+      "accuracy gpt": 0.3616666666666667,
+      "delta nll gpt": -0.006898379134311059
+    },
+    "context_10": {
+      "accuracy opus": 0.3516666666666667,
+      "delta nll opus": -0.010679398968646895,
+      "accuracy gpt": 0.37333333333333335,
+      "delta nll gpt": -0.004808635166717412
+    }
+  },
+  "google/gemma-3-1b-pt": {
+    "no_prompt": {
+      "accuracy opus": 0.49666666666666665,
+      "delta nll opus": 0.029897102609287282,
+      "accuracy gpt": 0.47333333333333333,
+      "delta nll gpt": 0.03932549063449577
+    },
+    "context_0": {
+      "accuracy opus": 0.365,
+      "delta nll opus": -0.02410984511717863,
+      "accuracy gpt": 0.3333333333333333,
+      "delta nll gpt": -0.01686700146658996
+    },
+    "context_1": {
+      "accuracy opus": 0.38666666666666666,
+      "delta nll opus": -0.0119347756775503,
+      "accuracy gpt": 0.3416666666666667,
+      "delta nll gpt": -0.009497433681056463
+    },
+    "context_2": {
+      "accuracy opus": 0.3983333333333333,
+      "delta nll opus": -0.009114887875090653,
+      "accuracy gpt": 0.355,
+      "delta nll gpt": -0.007759106755438408
+    },
+    "context_3": {
+      "accuracy opus": 0.40166666666666667,
+      "delta nll opus": -0.007655465025777542,
+      "accuracy gpt": 0.335,
+      "delta nll gpt": -0.0067085597871599355
+    },
+    "context_4": {
+      "accuracy opus": 0.395,
+      "delta nll opus": -0.006921618657336116,
+      "accuracy gpt": 0.33166666666666667,
+      "delta nll gpt": -0.006275735675517559
+    },
+    "context_5": {
+      "accuracy opus": 0.4,
+      "delta nll opus": -0.006161754398581369,
+      "accuracy gpt": 0.33666666666666667,
+      "delta nll gpt": -0.005473838347487226
+    },
+    "context_10": {
+      "accuracy opus": 0.4216666666666667,
+      "delta nll opus": -0.004313182423010173,
+      "accuracy gpt": 0.33666666666666667,
+      "delta nll gpt": -0.004252610571864675
+    }
+  },
+  "google/gemma-3-1b-it": {
+    "no_prompt": {
+      "accuracy opus": 0.46,
+      "delta nll opus": 0.008765931696419118,
+      "accuracy gpt": 0.435,
+      "delta nll gpt": 0.027966435048524037
+    },
+    "context_0": {
+      "accuracy opus": 0.33,
+      "delta nll opus": -0.03602571197060963,
+      "accuracy gpt": 0.305,
+      "delta nll gpt": -0.024120134675982594
+    },
+    "context_1": {
+      "accuracy opus": 0.35833333333333334,
+      "delta nll opus": -0.020389562643981608,
+      "accuracy gpt": 0.31333333333333335,
+      "delta nll gpt": -0.014320973922394854
+    },
+    "context_2": {
+      "accuracy opus": 0.36333333333333334,
+      "delta nll opus": -0.0146938155722795,
+      "accuracy gpt": 0.3233333333333333,
+      "delta nll gpt": -0.011622021365421715
+    },
+    "context_3": {
+      "accuracy opus": 0.38333333333333336,
+      "delta nll opus": -0.012171067591050808,
+      "accuracy gpt": 0.33,
+      "delta nll gpt": -0.009448497093933753
+    },
+    "context_4": {
+      "accuracy opus": 0.36833333333333335,
+      "delta nll opus": -0.01064077224333258,
+      "accuracy gpt": 0.3233333333333333,
+      "delta nll gpt": -0.008124028780976978
+    },
+    "context_5": {
+      "accuracy opus": 0.37833333333333335,
+      "delta nll opus": -0.009326578738959082,
+      "accuracy gpt": 0.3333333333333333,
+      "delta nll gpt": -0.0072634255631227815
+    },
+    "context_10": {
+      "accuracy opus": 0.38,
+      "delta nll opus": -0.006979786131468771,
+      "accuracy gpt": 0.34833333333333333,
+      "delta nll gpt": -0.0050652364263082
+    }
+  },
+  "google/gemma-3-4b-pt": {
+    "no_prompt": {
+      "accuracy opus": 0.525,
+      "delta nll opus": 0.040314934540489115,
+      "accuracy gpt": 0.4633333333333333,
+      "delta nll gpt": 0.038308265040495754
+    },
+    "context_0": {
+      "accuracy opus": 0.40166666666666667,
+      "delta nll opus": -0.013772224823257379,
+      "accuracy gpt": 0.31666666666666665,
+      "delta nll gpt": -0.01824428486687371
+    },
+    "context_1": {
+      "accuracy opus": 0.415,
+      "delta nll opus": -0.009001067934303211,
+      "accuracy gpt": 0.32,
+      "delta nll gpt": -0.012510177843441555
+    },
+    "context_2": {
+      "accuracy opus": 0.425,
+      "delta nll opus": -0.006875662737569388,
+      "accuracy gpt": 0.33166666666666667,
+      "delta nll gpt": -0.010528547421176489
+    },
+    "context_3": {
+      "accuracy opus": 0.42833333333333334,
+      "delta nll opus": -0.005230403580633601,
+      "accuracy gpt": 0.3283333333333333,
+      "delta nll gpt": -0.008943587432720156
+    },
+    "context_4": {
+      "accuracy opus": 0.435,
+      "delta nll opus": -0.004445018486140008,
+      "accuracy gpt": 0.3383333333333333,
+      "delta nll gpt": -0.00790036650825835
+    },
+    "context_5": {
+      "accuracy opus": 0.44666666666666666,
+      "delta nll opus": -0.0038943370730635126,
+      "accuracy gpt": 0.3383333333333333,
+      "delta nll gpt": -0.007122672742925721
+    },
+    "context_10": {
+      "accuracy opus": 0.44666666666666666,
+      "delta nll opus": -0.002662740771050072,
+      "accuracy gpt": 0.345,
+      "delta nll gpt": -0.005087400824671429
+    }
+  },
+  "google/gemma-3-4b-it": {
+    "no_prompt": {
+      "accuracy opus": 0.5483333333333333,
+      "delta nll opus": 0.06485379875922208,
+      "accuracy gpt": 0.46,
+      "delta nll gpt": 0.04492909585438145
+    },
+    "context_0": {
+      "accuracy opus": 0.415,
+      "delta nll opus": -0.015276005187541034,
+      "accuracy gpt": 0.2633333333333333,
+      "delta nll gpt": -0.03703462287056831
+    },
+    "context_1": {
+      "accuracy opus": 0.43,
+      "delta nll opus": -0.00764742033093742,
+      "accuracy gpt": 0.2816666666666667,
+      "delta nll gpt": -0.021850092210352178
+    },
+    "context_2": {
+      "accuracy opus": 0.45,
+      "delta nll opus": -0.0057738050936619175,
+      "accuracy gpt": 0.2916666666666667,
+      "delta nll gpt": -0.018429119053875277
+    },
+    "context_3": {
+      "accuracy opus": 0.4633333333333333,
+      "delta nll opus": -0.004321304074410779,
+      "accuracy gpt": 0.305,
+      "delta nll gpt": -0.01582648108371753
+    },
+    "context_4": {
+      "accuracy opus": 0.4583333333333333,
+      "delta nll opus": -0.003165603402233401,
+      "accuracy gpt": 0.3,
+      "delta nll gpt": -0.014339630841260581
+    },
+    "context_5": {
+      "accuracy opus": 0.4683333333333333,
+      "delta nll opus": -0.003194145372706707,
+      "accuracy gpt": 0.2916666666666667,
+      "delta nll gpt": -0.012894020955594327
+    },
+    "context_10": {
+      "accuracy opus": 0.44333333333333336,
+      "delta nll opus": -0.0024018204729093747,
+      "accuracy gpt": 0.3016666666666667,
+      "delta nll gpt": -0.008727543667350663
+    }
+  },
+  "google/gemma-3-12b-pt": {
+    "no_prompt": {
+      "accuracy opus": 0.5533333333333333,
+      "delta nll opus": 0.05536544000473744,
+      "accuracy gpt": 0.45,
+      "delta nll gpt": 0.04392952607421231
+    },
+    "context_0": {
+      "accuracy opus": 0.455,
+      "delta nll opus": -0.006118400562882712,
+      "accuracy gpt": 0.31833333333333336,
+      "delta nll gpt": -0.01892291518924837
+    },
+    "context_1": {
+      "accuracy opus": 0.445,
+      "delta nll opus": -0.004666007627192886,
+      "accuracy gpt": 0.30666666666666664,
+      "delta nll gpt": -0.012710036676715103
+    },
+    "context_2": {
+      "accuracy opus": 0.4633333333333333,
+      "delta nll opus": -0.00273068536031119,
+      "accuracy gpt": 0.32166666666666666,
+      "delta nll gpt": -0.010237387563574988
+    },
+    "context_3": {
+      "accuracy opus": 0.465,
+      "delta nll opus": -0.0018889915643538297,
+      "accuracy gpt": 0.31833333333333336,
+      "delta nll gpt": -0.009008107807951183
+    },
+    "context_4": {
+      "accuracy opus": 0.4683333333333333,
+      "delta nll opus": -0.0016858008588224948,
+      "accuracy gpt": 0.32,
+      "delta nll gpt": -0.008130199233392069
+    },
+    "context_5": {
+      "accuracy opus": 0.46,
+      "delta nll opus": -0.0013983954049219553,
+      "accuracy gpt": 0.31166666666666665,
+      "delta nll gpt": -0.007363917914908535
+    },
+    "context_10": {
+      "accuracy opus": 0.455,
+      "delta nll opus": -0.0011074443210645983,
+      "accuracy gpt": 0.32666666666666666,
+      "delta nll gpt": -0.005232454122865652
+    }
+  },
+  "google/gemma-3-12b-it": {
+    "no_prompt": {
+      "accuracy opus": 0.5833333333333334,
+      "delta nll opus": 0.08306199494191283,
+      "accuracy gpt": 0.4633333333333333,
+      "delta nll gpt": 0.04085299126202578
+    },
+    "context_0": {
+      "accuracy opus": 0.4866666666666667,
+      "delta nll opus": 0.007895294967217059,
+      "accuracy gpt": 0.2966666666666667,
+      "delta nll gpt": -0.036294535506030595
+    },
+    "context_1": {
+      "accuracy opus": 0.5133333333333333,
+      "delta nll opus": 0.009106790164982354,
+      "accuracy gpt": 0.2816666666666667,
+      "delta nll gpt": -0.02473609585261548
+    },
+    "context_2": {
+      "accuracy opus": 0.52,
+      "delta nll opus": 0.009468427149426051,
+      "accuracy gpt": 0.2783333333333333,
+      "delta nll gpt": -0.02089977369355801
+    },
+    "context_3": {
+      "accuracy opus": 0.5483333333333333,
+      "delta nll opus": 0.010103532834052312,
+      "accuracy gpt": 0.2916666666666667,
+      "delta nll gpt": -0.01815586339431478
+    },
+    "context_4": {
+      "accuracy opus": 0.5616666666666666,
+      "delta nll opus": 0.009187118583479694,
+      "accuracy gpt": 0.29333333333333333,
+      "delta nll gpt": -0.016271468759120035
+    },
+    "context_5": {
+      "accuracy opus": 0.57,
+      "delta nll opus": 0.008795226151656245,
+      "accuracy gpt": 0.3,
+      "delta nll gpt": -0.014707483567063988
+    },
+    "context_10": {
+      "accuracy opus": 0.5566666666666666,
+      "delta nll opus": 0.006340885937020119,
+      "accuracy gpt": 0.305,
+      "delta nll gpt": -0.009809582619219291
+    }
+  }
+}
